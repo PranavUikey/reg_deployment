@@ -40,6 +40,9 @@
         button:hover {
             background-color: #45a049;
         }
+        div {
+            text-align: center;
+            }
     </style>
 </head>
 <body>
@@ -88,9 +91,11 @@
         <input type="number" id="bias_col" name="bias_col" step="any" required>
 
         <button type="submit">Predict Price</button>
-        <div>
-            {{prediction_text}}
-        </div>
+        <br>
+            <div>
+                {{prediction_text}}
+            </div>
+        </br>
     </form>
 </body>
 
